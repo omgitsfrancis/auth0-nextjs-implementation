@@ -12,7 +12,7 @@ export default class Root extends App {
       <Auth0Provider
         domain={config.domain}
         client_id={config.clientId}
-        redirect_uri={process.env.URL || config.redirectUri}
+        redirect_uri={process.env.URL}
       >
         <Component {...pageProps} />
       </Auth0Provider>
