@@ -3,6 +3,16 @@ This is a sample implementation of Auth0 in a Next.js project. In the future, I'
 
 This project includes my personal Auth0 client ID.
 
+#### Hosted URL: 
+
+`https://auth0-nextjs.netlify.app/login`
+
+#### Test Credentials:
+
+Email - `test@account.com`
+
+Password - `Very-insecure1`
+
 ## Setup
 ```
 git clone https://github.com/omgitsfrancis/auth0-nextjs-implementation
