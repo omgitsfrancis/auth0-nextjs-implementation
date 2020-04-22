@@ -5,7 +5,7 @@ This project includes my personal Auth0 client ID.
 
 #### Hosted URL: 
 
-`https://auth0-nextjs.netlify.app/login`
+https://auth0-nextjs.netlify.app/login
 
 #### Test Credentials:
 
