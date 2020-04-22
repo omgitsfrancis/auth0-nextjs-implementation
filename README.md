@@ -1,30 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+# Auth0 Implementation with Next.js
+This is a sample implementation of Auth0 in a Next.js project. In the future, I'll probably use this a reference for building an application that requires user authentication.
 
-## Getting Started
+This project includes my personal Auth0 client ID.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
+## Setup
+```
+git clone https://github.com/omgitsfrancis/auth0-nextjs-implementation
+cd auth0-nextjs-implementation
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Run in Development Environment
+```
+npm run dev
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Usage
 
-## Learn More
+Navigate to http://localhost:3000/login. To login, click the login button or navigate to a page that requires authentication. To logout, click the logout button.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on ZEIT Now
-
-The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Available pages:
+ - Login - http://localhost:3000/login
+   - The only page that doesn't require authentication
+   - On logout, you will be redirected to the login page
+ - Home - http://localhost:3000/
+   - Requires authentication
+   - On login, you will be redirected to the home page
+ - Profile - http://localhost:3000/profile
+   - Requires authentication
+   - Displays profile info (name, email)

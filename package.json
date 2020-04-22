@@ -8,8 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@auth0/auth0-spa-js": "^1.7.0",
     "next": "9.3.5",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "use-auth0-hooks": "^0.7.0"
   }
 }
